@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduVerse, Online Learning Platform</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Skip to Content -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">EduVerse</div>
+      <ul class="nav-links">
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-buttons">
+        <button class="login-btn">Login</button>
+        <button class="signup-btn">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" role="banner" aria-label="Hero Section">
+    <div class="hero-content">
+      <h1>Unlock Your Potential with Online Learning</h1>
+      <p>Join thousands of learners and access top-rated courses from expert instructors. Learn anytime, anywhere.</p>
+      <div class="search-bar">
+        <input type="text" placeholder="What do you want to learn?" aria-label="Search Courses">
+        <button>Find Courses</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Categories -->
+  <main id="main-content">
+    <section id="categories" class="categories">
+      <h2>Popular Categories</h2>
+      <div class="category-grid">
+        <div class="category-card">💻 Web Development</div>
+        <div class="category-card">🎨 Arts & Crafts</div>
+        <div class="category-card">💼 Business & Economics</div>
+        <div class="category-card">🗣 Languages</div>
+      </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section id="courses" class="courses">
+      <h2>Featured Courses</h2>
+      <div class="filters">
+        <label for="level">Level:</label>
+        <select id="level">
+          <option>All</option>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+
+        <label for="price">Price:</label>
+        <select id="price">
+          <option>All</option>
+          <option>Free</option>
+          <option>Paid</option>
+        </select>
+      </div>
+
+      <div class="course-grid">
+        <article class="course-card">
+          <img src="images/wdbt.jpeg" alt="Web Development Bootcamp">
+          <h3>Modern Web Development Bootcamp</h3>
+          <p>Learn full-stack web development with HTML, CSS, and JavaScript.</p>
+        </article>
+
+        <article class="course-card">
+          <img src="images/a&cm.jpeg" alt="Arts & Crafts Masterclass">
+          <h3>Creative crafts Masterclass</h3>
+          <p>Master Arts, Illustrator, and design fundamentals.</p>
+        </article>
+
+        <article class="course-card">
+          <img src="images/bf.jpeg" alt="Business Fundamentals">
+          <h3>Business Analytics Fundamentals</h3>
+          <p>Analyze data and make better business decisions with analytics.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Your Name" required>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Your Email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© Muskaan Jangra, EduVerse 2025. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#" aria-label="Facebook">📘</a>
+      <a href="#" aria-label="Twitter">🐦</a>
+      <a href="#" aria-label="Instagram">📸</a>
+    </div>
+  </footer>
+</body>
+</html>
